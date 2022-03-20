@@ -7,7 +7,5 @@ removeProduct.addEventListener('click', () => {
     valueCart.innerHTML = ''
     document.querySelector('.product-cont-divs').style.display = "none"
     document.querySelector('.product-cont-none').style.display = "flex"
-    document.getElementById('numberAdd').innerHTML = '1'
-
 })
 }
