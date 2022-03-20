@@ -306,7 +306,6 @@ main{
     background-color: #f7f7f7;
     position: absolute;
     top: 120px;
-    z-index: 1;
 }
 
 .cardSpan{
@@ -421,6 +420,7 @@ main{
     .picture-product-mobile{
         width: 100%;
         display: block;
+        z-index: -1;
     }
 
     .picture-product-mobile img{
